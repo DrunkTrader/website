@@ -1,0 +1,63 @@
+# The URL the site will be built for
+base_url = "https://drunktrader.dev"
+title = "Neeraj Kumar"
+description = "A blog for sharing my thoughts, ideas, and experiences on software development, technology, and life in general."
+generate_feeds = false
+feed_filenames = ["atom.xml"] # default template
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+minify_html = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+taxonomies = [
+  {name = "travel_tags", feed = true},
+  {name = "tags", feed = true},
+]
+
+[markdown]
+render_emoji = true
+smart_punctuation = true
+insert_anchor_links = "right"
+
+[markdown.highlighting]
+enabled = true
+light_theme = "github-light"
+dark_theme = "github-dark-dimmed"
+
+[extra]
+date_format="%d %b, %Y"
+
+[[extra.main_menu]]
+name = "Projects"
+url = "@/projects/_index.md"
+
+# [[extra.main_menu]]
+# name = "Services"
+# url = "@/services.md"
+
+# [[extra.main_menu]]
+# name = "Talks"
+# url = "@/talks.md"
+
+[[extra.main_menu]]
+name = "Resume"
+url = "@/resume.md"
+
+[[extra.main_menu]]
+name = "Posts"
+url = "@/posts/_index.md"
+
+[[extra.main_menu]]
+name = "TIL"
+url = "@/tils/_index.md"
+
+# [[extra.main_menu]]
+# name = "Travel"
+# url = "@/travel/_index.md"
+
+[[extra.main_menu]]
+name = "Contact"
+url = "@/contact.md"

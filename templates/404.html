@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}404{% endblock %}
+
+{% block main %}
+  <h1>404</h1>
+  <h2 class="emoji">Page not found 😔</h2>
+
+  <div style="margin-top: 2rem; text-align: center;">
+    <a href="{{ get_url(path="/") }}" style="font-size: 1.1rem; text-decoration: underline; font-weight: 500;">
+      Go to Homepage
+    </a>
+  </div>
+{% endblock %}

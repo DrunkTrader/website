@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} | {{ super() }}{% endblock %}
+
+{% block main %}
+<div class="section-header">
+  <h1>Projects</h1>
+  <p class="section-description">A collection of open source tools and experiments. For everything else, visit <a href="https://github.com/drunktrader" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+</div>
+
+{% set data = load_data(path="content/projects/data.toml", format="toml") %}
+{% set highlighted_names = ["mazoni-redis-cli", "option-pricing-simulator"] %}
+
+<section class="projects-section">
+  <h2>Featured</h2>
+  <div class="projects-grid">
+    {% for proj in data.project %}
+      {% if proj.name in highlighted_names %}
+      <article class="project-card featured">
+        <div class="project-header">
+          <h3 class="project-name">{{ proj.name }}</h3>
+          {% if proj.stars %}
+          <span class="project-stars">{{ proj.stars }}</span>
+          {% endif %}
+        </div>
+        <p class="project-desc">{{ proj.description }}</p>
+        <div class="project-footer">
+          {% if proj.language %}
+          <span class="project-lang">{{ proj.language }}</span>
+          {% endif %}
+          <div class="project-links">
+            {% for link in proj.links -%}
+            <a href="{{ link.url }}" target="_blank" rel='noreferrer noopener'>{{ link.name }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h2>All Projects</h2>
+  <div class="projects-grid compact">
+    {% for proj in data.project %}
+      {% if proj.name not in highlighted_names %}
+      <article class="project-card">
+        <div class="project-header">
+          <h3 class="project-name">{{ proj.name }}</h3>
+          {% if proj.stars and proj.stars > 10 %}
+          <span class="project-stars">{{ proj.stars }}</span>
+          {% endif %}
+        </div>
+        <p class="project-desc">{{ proj.description }}</p>
+        <div class="project-footer">
+          {% if proj.language %}
+          <span class="project-lang">{{ proj.language }}</span>
+          {% endif %}
+          <div class="project-links">
+            {% for link in proj.links -%}
+            <a href="{{ link.url }}" target="_blank" rel='noreferrer noopener'>{{ link.name }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

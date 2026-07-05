@@ -1,0 +1,96 @@
+# GitHub Projects
+# Generated on 2025-08-09 19:49:56
+# Total projects: 89
+
+[[project]]
+name = "mazoni-redis-cli"
+description = "A lightweight Redis CLI client built in C++"
+created = "March 2026"
+pushed = "April 2026"
+stars = 1
+language = "C++"
+links = [
+  # { name = "Homepage", url = "https://redisCLI.app/" },
+  { name = "GitHub", url = "https://github.com/drunktrader/redisCLI" },
+]
+
+[[project]]
+name = "website"
+description = "Personal site, made using Zola"
+created = "June 2026"
+pushed = "July 2026"
+stars = 0
+language = "HTML"
+links = [
+  { name = "Home", url = "https://drunktrader.dev" },
+  { name = "GitHub", url = "https://github.com/drunktrader/website" },
+]
+
+[[project]]
+name = "yt-focustube"
+description = "Mozilla extension to block youtube videos on your browser with certain words and/or creators."
+created = "April 2026"
+pushed = "April 2026"
+language = "JavaScript"
+links = [
+  { name = "Extension", url = "https://addons.mozilla.org/en-GB/firefox/addon/drunktrader_focustube/" },
+  { name = "GitHub", url = "https://github.com/drunktrader/yt-focustube" },
+]
+
+[[project]]
+name = "option-pricing-simulator"
+description = "Monte Carlo simulation for pricing options"
+created = "January 2026"
+pushed = "March 2026"
+stars = 0
+language = "Python"
+links = [
+  # { name = "Homepage", url = "https://drunktrader.dev" },
+  { name = "GitHub", url = "https://github.com/DrunkTrader/monte-carlo-options-pricing-simulator" },
+]
+
+[[project]]
+name = "clipIt"
+description = "Twitter video clipper to get short clips"
+created = "Dec 2025"
+pushed = "Jan 2026"
+stars = 0
+language = "TypeScript"
+links = [
+  # { name = "Homepage", url = "https://drunktrader.dev/" },
+  { name = "GitHub", url = "https://github.com/DrunkTrader/clipIt" },
+]
+
+[[project]]
+name = "algorithm-visualizer"
+description = "Visualize common algorithms. So far implemented A* Search algorithm."
+created = "Jun 2025"
+pushed = "September 2025"
+stars = 0
+language = "TypeScript"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/aStar-algorithm" },
+]
+
+[[project]]
+name = "tradingview-data-fetcher"
+description = "A tool to extract historical market data from TradingView "
+created = "Feburary 2025"
+pushed = "April 2025"
+stars = 0
+language = "Python"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/tradingview-data-fetcher" },
+]
+
+[[project]]
+name = "auto-git-committer"
+description = "creates random git commits"
+created = "Dec 2018"
+pushed = "May 2025"
+stars = 1
+language = "Rust"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/auto-git-committer" },
+]
+

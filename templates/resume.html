@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | {{ super() }}{% endblock %}
+
+{% block main %}
+<div class="resume-page">
+  <div class="resume-header">
+    <div class="resume-header-text">
+      <h1>{{ page.title }}</h1>
+      {% if page.extra.subtitle %}
+      <p class="resume-subtitle">{{ page.extra.subtitle | safe }}</p>
+      {% endif %}
+    </div>
+    <a href="{{ page.extra.resume_file }}" download class="resume-download-btn" title="Download Resume">
+      <i data-feather="download"></i>
+      <span>Download</span>
+    </a>
+  </div>
+
+  <div class="resume-toolbar">
+    <div class="resume-toolbar-actions">
+      <button class="resume-zoom-btn" id="zoom-out" title="Zoom Out">
+        <i data-feather="zoom-out"></i>
+      </button>
+      <span class="resume-zoom-level" id="zoom-level">100%</span>
+      <button class="resume-zoom-btn" id="zoom-in" title="Zoom In">
+        <i data-feather="zoom-in"></i>
+      </button>
+    </div>
+    <div class="resume-toolbar-meta">
+      <span class="resume-filename">{{ page.extra.resume_file | split(pat="/") | last }}</span>
+    </div>
+  </div>
+
+  <div class="resume-viewer">
+    <div class="resume-embed-wrapper" id="resume-wrapper">
+      <iframe
+        src="{{ page.extra.resume_file }}"
+        class="resume-iframe"
+        title="Resume PDF"
+        loading="lazy"
+      ></iframe>
+      <!-- Fallback for browsers that can't render inline PDFs -->
+      <div class="resume-fallback">
+        <i data-feather="file-text"></i>
+        <p>Your browser doesn't support inline PDF viewing.</p>
+        <a href="{{ page.extra.resume_file }}" download class="resume-fallback-link">
+          <i data-feather="download"></i> Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const wrapper = document.getElementById('resume-wrapper');
+    const zoomIn = document.getElementById('zoom-in');
+    const zoomOut = document.getElementById('zoom-out');
+    const zoomLevel = document.getElementById('zoom-level');
+    let zoom = 100;
+    const step = 15;
+    const min = 50;
+    const max = 200;
+
+    function updateZoom() {
+      wrapper.style.transform = 'scale(' + (zoom / 100) + ')';
+      wrapper.style.transformOrigin = 'top center';
+      zoomLevel.textContent = zoom + '%';
+      zoomOut.disabled = zoom <= min;
+      zoomIn.disabled = zoom >= max;
+    }
+
+    zoomIn.addEventListener('click', function() {
+      if (zoom < max) { zoom += step; updateZoom(); }
+    });
+    zoomOut.addEventListener('click', function() {
+      if (zoom > min) { zoom -= step; updateZoom(); }
+    });
+  })();
+</script>
+{% endblock %}
