@@ -9,13 +9,11 @@
 </div>
 
 {% set data = load_data(path="content/projects/data.toml", format="toml") %}
-{% set highlighted_names = ["mazoni-redis-cli", "option-pricing-simulator"] %}
-
 <section class="projects-section">
   <h2>Featured</h2>
   <div class="projects-grid">
     {% for proj in data.project %}
-      {% if proj.name in highlighted_names %}
+      {% if proj.visible and proj.featured %}
       <article class="project-card featured">
         <div class="project-header">
           <h3 class="project-name">{{ proj.name }}</h3>
@@ -42,7 +40,7 @@
   <h2>All Projects</h2>
   <div class="projects-grid compact">
     {% for proj in data.project %}
-      {% if proj.name not in highlighted_names %}
+      {% if proj.visible and not proj.featured %}
       <article class="project-card">
         <div class="project-header">
           <h3 class="project-name">{{ proj.name }}</h3>

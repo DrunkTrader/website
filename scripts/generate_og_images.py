@@ -4,7 +4,7 @@
 # dependencies = ["Pillow"]
 # ///
 """
-OG Image Generator for mrkaran.dev
+OG Image Generator for drunktrader.dev
 
 Generates social preview images for blog posts that don't have a custom og_preview_img.
 Uses the blog's warm terracotta aesthetic with clean, modern typography.
@@ -20,8 +20,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 # Configuration
 CONFIG = {
-    "author": "Karan Sharma",
-    "site": "mrkaran.dev",
+    "author": "Neeraj Kumar",
+    "site": "drunktrader.dev",
     "width": 1200,
     "height": 630,
     "padding": 72,

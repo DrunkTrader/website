@@ -1,83 +1,208 @@
 # GitHub Projects
-# Generated on 2025-08-09 19:49:56
-# Total projects: 89
+# Generated on 2026-09-06 21:03:16
+# Total projects: 22
 
 [[project]]
-name = "mazoni-redis-cli"
-description = "A lightweight Redis CLI client built in C++"
-created = "March 2026"
-pushed = "April 2026"
-stars = 1
+name = "OOPS_cpp"
+visible = false
+featured = false
+description = "Just practitcing OOPS concepts in cpp."
+created = "Dec 2025"
+pushed = "Sep 2026"
 language = "C++"
 links = [
-  # { name = "Homepage", url = "https://redisCLI.app/" },
-  { name = "GitHub", url = "https://github.com/drunktrader/redisCLI" },
+  { name = "GitHub", url = "https://github.com/DrunkTrader/OOPS_cpp" },
+]
+
+[[project]]
+name = "drunktrader"
+visible = false
+featured = false
+description = "readme.md file for github profile design for better visuals."
+created = "Apr 2025"
+pushed = "Sep 2026"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/drunktrader" },
+]
+
+[[project]]
+name = "FixEngine"
+visible = true
+featured = true
+description = "A modern C++20 FIX protocol parser and validator."
+created = "Apr 2026"
+pushed = "Sep 2026"
+language = "C++"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/FixEngine" },
+]
+
+[[project]]
+name = "discord-vault"
+visible = true
+featured = true
+description = "Encrypted file storage using Discord as a storage backend, with AES-256-GCM, X25519 key wrapping, SHA-256 integrity checks, and lossless PNG data encoding."
+created = "Aug 2026"
+pushed = "Aug 2026"
+language = "Python"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/discord-vault" },
+]
+
+[[project]]
+name = "zyn"
+visible = true
+featured = false
+description = "A lightweight command-line file copying utility written in modern C++20."
+created = "Aug 2026"
+pushed = "Aug 2026"
+language = "C++"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/zyn" },
+]
+
+[[project]]
+name = "blockchain"
+visible = true
+featured = false
+description = "A minimal implementation of blockchain in Python"
+created = "Jul 2026"
+pushed = "Jul 2026"
+language = "Python"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/blockchain" },
 ]
 
 [[project]]
 name = "website"
-description = "Personal site, made using Zola"
-created = "June 2026"
-pushed = "July 2026"
-stars = 0
-language = "HTML"
+visible = true
+featured = false
+description = "my personal website to showcase projects and thoughts"
+created = "Jul 2026"
+pushed = "Jul 2026"
+language = "CSS"
 links = [
-  { name = "Home", url = "https://drunktrader.dev" },
-  { name = "GitHub", url = "https://github.com/drunktrader/website" },
+  { name = "Homepage", url = "https://drunktrader.dev" },
+  { name = "GitHub", url = "https://github.com/DrunkTrader/website" },
+]
+
+[[project]]
+name = "redisCLI"
+visible = true
+featured = true
+description = "a redis cli implementation in C++17"
+created = "Apr 2026"
+pushed = "Apr 2026"
+language = "C++"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/redisCLI" },
 ]
 
 [[project]]
 name = "yt-focustube"
-description = "Mozilla extension to block youtube videos on your browser with certain words and/or creators."
-created = "April 2026"
-pushed = "April 2026"
+visible = true
+featured = false
+description = "A youtube extention to remove distractions."
+created = "Apr 2026"
+pushed = "Apr 2026"
 language = "JavaScript"
 links = [
-  { name = "Extension", url = "https://addons.mozilla.org/en-GB/firefox/addon/drunktrader_focustube/" },
-  { name = "GitHub", url = "https://github.com/drunktrader/yt-focustube" },
+  { name = "Homepage", url = "https://addons.mozilla.org/en-GB/firefox/addon/drunktrader_focustube/" },
+  { name = "GitHub", url = "https://github.com/DrunkTrader/yt-focustube" },
 ]
 
 [[project]]
-name = "option-pricing-simulator"
-description = "Monte Carlo simulation for pricing options"
-created = "January 2026"
-pushed = "March 2026"
-stars = 0
+name = "options-pricing-model"
+visible = true
+featured = true
+description = "An options pricing model based on Monte Carlo's Equation"
+created = "Mar 2026"
+pushed = "Mar 2026"
 language = "Python"
 links = [
-  # { name = "Homepage", url = "https://drunktrader.dev" },
-  { name = "GitHub", url = "https://github.com/DrunkTrader/monte-carlo-options-pricing-simulator" },
+  { name = "GitHub", url = "https://github.com/DrunkTrader/options-pricing-model" },
+]
+
+[[project]]
+name = "black-scholes-model"
+visible = true
+featured = false
+description = "A python Implemetation of Black Scholes Options Pricing Model."
+created = "Feb 2026"
+pushed = "Feb 2026"
+language = "Python"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/black-scholes-model" },
+]
+
+[[project]]
+name = "amazon-scraper"
+visible = false
+featured = false
+description = "A Scraper built in Python to Scrape Amazon India's Listed Product using URL."
+created = "Feb 2026"
+pushed = "Feb 2026"
+language = "Python"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/amazon-scraper" },
+]
+
+[[project]]
+name = "enso"
+visible = false
+featured = false
+description = "A text Editor in C++."
+created = "Jan 2026"
+pushed = "Jan 2026"
+language = "C++"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/enso" },
 ]
 
 [[project]]
 name = "clipIt"
-description = "Twitter video clipper to get short clips"
-created = "Dec 2025"
+visible = true
+featured = false
+description = "A full-stack application for downloading and clipping Twitter/X videos. Simply paste a tweet URL, download the video, and optionally create custom clips with precise timestamps."
+created = "Jan 2026"
 pushed = "Jan 2026"
-stars = 0
 language = "TypeScript"
 links = [
-  # { name = "Homepage", url = "https://drunktrader.dev/" },
+  { name = "Homepage", url = "https://clip-it-alpha.vercel.app" },
   { name = "GitHub", url = "https://github.com/DrunkTrader/clipIt" },
 ]
 
 [[project]]
-name = "algorithm-visualizer"
-description = "Visualize common algorithms. So far implemented A* Search algorithm."
-created = "Jun 2025"
-pushed = "September 2025"
-stars = 0
+name = "what-im-learning"
+visible = false
+featured = false
+description = "Just bunch of things I am working On."
+created = "Dec 2025"
+pushed = "Dec 2025"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/what-im-learning" },
+]
+
+[[project]]
+name = "aStar-algorithm"
+visible = true
+featured = false
+description = "An interactive pathfinding visualization tool that showcases the working of the A* (A-Star) algorithm in a grid-based environment. The application enables users to observe how the algorithm efficiently computes the shortest path between a start and end point while dynamically navigating around obstacles."
+created = "Sep 2025"
+pushed = "Sep 2025"
 language = "TypeScript"
 links = [
+  { name = "Homepage", url = "https://a-star-algorithm-eta.vercel.app" },
   { name = "GitHub", url = "https://github.com/DrunkTrader/aStar-algorithm" },
 ]
 
 [[project]]
 name = "tradingview-data-fetcher"
-description = "A tool to extract historical market data from TradingView "
-created = "Feburary 2025"
-pushed = "April 2025"
-stars = 0
+visible = true
+featured = false
+description = "A tool to extract historical market data from TradingView"
+created = "Apr 2025"
+pushed = "Apr 2025"
 language = "Python"
 links = [
   { name = "GitHub", url = "https://github.com/DrunkTrader/tradingview-data-fetcher" },
@@ -85,12 +210,61 @@ links = [
 
 [[project]]
 name = "auto-git-committer"
-description = "creates random git commits"
-created = "Dec 2018"
-pushed = "May 2025"
-stars = 1
+visible = false
+featured = false
+description = "A Rust program to automate Git commits and push them to a remote repository. Not to be used to create fake contributions."
+created = "Mar 2025"
+pushed = "Apr 2025"
 language = "Rust"
 links = [
+  { name = "Homepage", url = "https://crates.io/crates/auto-git-committer" },
   { name = "GitHub", url = "https://github.com/DrunkTrader/auto-git-committer" },
+]
+
+[[project]]
+name = "nse-scraper"
+visible = false
+featured = false
+description = "Crate to scrape NSE data."
+created = "Mar 2025"
+pushed = "Mar 2025"
+language = "Rust"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/nse-scraper" },
+]
+
+[[project]]
+name = "tail_hunterBot"
+visible = false
+featured = false
+description = "A trading bot for Research, Backtesting & Implementation"
+created = "Feb 2025"
+pushed = "Feb 2025"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/tail_hunterBot" },
+]
+
+[[project]]
+name = "missile-defense-game"
+visible = false
+featured = false
+description = "A basic space shuttle Shooting Game made in javascript , html, css."
+created = "Jan 2025"
+pushed = "Jan 2025"
+language = "JavaScript"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/missile-defense-game" },
+]
+
+[[project]]
+name = "coke-project"
+visible = false
+featured = false
+description = "Front end project of Coke"
+created = "Aug 2024"
+pushed = "Aug 2024"
+language = "CSS"
+links = [
+  { name = "GitHub", url = "https://github.com/DrunkTrader/coke-project" },
 ]
 

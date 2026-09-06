@@ -8,11 +8,15 @@ title = "Home"
 
   <div class="home-content">
 
-I'm **Neeraj Kumar** — but you might stumble across **`@DrunkTrader`** in some corners of the internet. I work on backend services, infrastructure, and automation. Most of my time is spent building applications, experimenting with new technologies, and understanding how systems behave at scale.
+I'm **Neeraj Kumar** - though you might know me as **`@DrunkTrader`** in some corners of the internet.
 
-I like to [tinker](https://github.com/drunktrader) with stuff around monitoring, networking and distributed systems.
+I like building things and understanding what happens underneath the abstractions. My interests are mostly around **backend engineering, systems, infrastructure, networking, and distributed systems**.
 
-When I'm not in the tech zone, I'm probably playing volleyball, on a road trip, experimenting in the kitchen, or fragging out in CS2 or Valorant with friends. I've got a soft spot for music too, and I've curated some of my favorites on [Spotify playlist](https://open.spotify.com/playlist/5dvbrw93FgUhsZdbnpF3JM).
+I spend a lot of time working with **C++, Go, Rust, and Linux**, building projects, contributing to open source, and occasionally breaking things just to understand why they broke.
+
+I like to [tinker](https://github.com/drunktrader) with monitoring, networking, automation, and systems that make me ask *"how does this actually work?"*
+
+When I'm away from the terminal, I'm probably playing volleyball, on a road trip, experimenting in the kitchen, or fragging out in CS2 or Valorant with friends. I also have a soft spot for music, and I've put some of my favorites into a [Spotify playlist](https://open.spotify.com/playlist/37i9dQZF1E8MSNepaoFe5Z?si=34efff18f3994c4c).
 
   </div>
 
@@ -21,12 +25,3 @@ When I'm not in the tech zone, I'm probably playing volleyball, on a road trip, 
   </div>
 
 </div>
-
-<!-- ## ⭐ Featured Posts
-
-A curated collection of my top articles from over the years:
-
-* [Understanding Networking in Nomad](@/posts/nomad-networking-explained.md)
-* [Using ClickHouse Keeper for Replication](@/posts/clickhouse-replication.md)
-* [Running Nomad for home server](@/posts/home-server-nomad.md)
-* [DNS Lookups in Kubernetes](@/posts/ndots-kubernetes.md) -->
