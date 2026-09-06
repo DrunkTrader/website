@@ -16,7 +16,7 @@
     {% set article_modified_time = page.date -%}
     {# Use custom og_preview_img if set, otherwise fall back to auto-generated image #}
     {% if page.extra.og_preview_img -%}
-        {% set og_image = page.extra.og_preview_img | trim_start_matches(pat="/") -%}
+        {% set og_image = page.extra.og_preview_img -%}
     {% else -%}
         {% set og_image = "images/og/" ~ page.slug ~ ".png" -%}
     {% endif -%}
