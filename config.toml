@@ -23,7 +23,7 @@ smart_punctuation = true
 insert_anchor_links = "right"
 
 [markdown.highlighting]
-enabled = true
+# enabled = true
 light_theme = "github-light"
 dark_theme = "github-dark-dimmed"
 
