@@ -21,10 +21,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
       - name: Install Zola
         uses: taiki-e/install-action@v2
         with:
           tool: zola
+
+      - name: Fetch GitHub Projects
+        run: python scripts/fetch_all_github_projects.py > content/projects/data.toml
 
       - name: Build
         run: zola build

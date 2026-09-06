@@ -8,8 +8,9 @@ Visit at [drunktrader.dev](https://drunktrader.dev)
 
 - Framework: [Zola](https://www.getzola.org/)
 - Theme: Adapted [zola-bearblog](https://codeberg.org/alanpearce/zola-bearblog) with some custom styles.
-- Deployment: Caddy + Hetzner VPS + Cloudflare
-- Analytics: Plausible Analytics
+- Deployment: GitHub Pages (auto-deploy via GitHub Actions)
+- Custom Domain: drunktrader.dev (via CNAME)
+- Analytics: Umami Analytics
 
 
 ---

@@ -12,7 +12,7 @@ I'm **Neeraj Kumar** - though you might know me as **`@DrunkTrader`** in some co
 
 I like building things and understanding what happens underneath the abstractions. My interests are mostly around **backend engineering, systems, infrastructure, networking, and distributed systems**.
 
-I spend a lot of time working with **C++, Go, Rust, and Linux**, building projects, contributing to open source, and occasionally breaking things just to understand why they broke.
+I spend a lot of time working with **C++, Python, and Linux**, building projects, contributing to open source, and occasionally breaking things just to understand why they broke.
 
 I like to [tinker](https://github.com/drunktrader) with monitoring, networking, automation, and systems that make me ask *"how does this actually work?"*
 
